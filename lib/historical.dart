@@ -60,7 +60,6 @@ class _HistoricalPageState extends State<HistoricalPage> {
                 ],
               ),
             ),
-            bottomNavigationBar: const NavigationBottomBar(selectedPage: 1),
             floatingActionButton: FloatingActionButton(
               onPressed: counter.export,
               child: const Icon(Icons.share),
